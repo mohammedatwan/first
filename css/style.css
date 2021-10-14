@@ -1,0 +1,208 @@
+*{
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+body{
+    margin: 0px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Poppins', sans-serif;
+}
+main{
+    background: url(/images/bg-hero-desktop.svg);
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 100px;
+}
+header{
+    margin-bottom: 20px;
+}
+header .logo{
+    width: 200px;
+}
+header button{
+    font-weight: bold;
+    float: right;
+    padding: 10px 50px;
+    border: none;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 0px 0px 5px 0px rgb(204, 202, 202);
+}
+header button:hover{
+    color: gray;
+}
+.main-show{
+    display: flex;
+}
+.left-text{
+    flex: 1;
+    padding-top: 5rem;
+}
+.left-text button{
+    border: none;
+    background-color: hsl(322, 100%, 66%);
+    padding: 15px 40px;
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+}
+.left-text button:hover{
+    background-color: white;
+    color: hsl(322, 100%, 66%);
+    border: 1px solid hsl(322, 100%, 66%);
+}
+.right-photo{
+    flex: 2;
+    margin-left: 20px;
+}
+.right-photo img{
+    width: 100%;
+}
+.container{
+    margin: 50px;
+    padding: 50px;
+    display: flex;
+    border: solid 1px rgb(241, 240, 240);
+}
+.text{
+    flex: 1;
+    position: relative;
+}
+.text h2{
+    position: absolute;
+    top: 35%;
+}
+.photo{
+    flex: 1;
+    margin: 10px 20px;
+}
+.photo img{
+    width: 100%;
+}
+.gray{
+    color: gray;
+    position: absolute;
+    top: 50%;
+}
+footer{
+    margin-top: 100px;
+    background-color: hsl(192, 100%, 9%);
+    color: white;
+    position: relative;
+    padding: 80px 40px;
+}
+.box{
+    position: absolute;
+    top: -80px;
+    color: #000;
+    left: 35%;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px 30px;
+    box-shadow: 0px 0px 2px 0px #cdcdcd;
+}
+.box button{
+    border: none;
+    background-color: hsl(322, 100%, 66%);
+    padding: 15px 40px;
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+    border:1px solid hsl(322, 100%, 66%) ;
+}
+.box button:hover{
+    background-color: white;
+    color: hsl(322, 100%, 66%);
+}
+.main-footer{
+    display:flex;
+}
+.left-footer{
+    flex: 1;
+}
+.left-footer img{
+    background-color: white;
+}
+.center-footer{
+    flex: 1;
+    display: flex;
+}
+.first-center{
+    flex: 1;
+}
+.second-center{
+    flex: 1;
+}
+.right-footer{
+    flex: 1;
+    text-align: center;
+    position: relative;
+}
+.first::before{
+    content: "";
+    display: block;
+    background: url("/images/icon-location.svg") no-repeat;
+    width: 20px;
+    height: 20px;
+    float: left;
+    margin: 0px 10px 0px 0px;
+}
+.second::before{
+    content: "";
+    display: block;
+    background: url("/images/icon-phone.svg") no-repeat;
+    width: 20px;
+    height: 20px;
+    float: left;
+    margin: 0px 10px 0px 0px;
+}
+.third::before{
+    content: "";
+    display: block;
+    background: url("/images/icon-email.svg") no-repeat;
+    width: 20px;
+    height: 20px;
+    float: left;
+    margin: 0px 10px 0px 0px;
+}   
+li{
+    margin: 10px 0px;
+    list-style-type: none;
+}
+.copy{
+    position: absolute;
+    bottom: 0px;
+    left: 10%;
+}
+.fab{
+    margin-right: 20px;
+    color: white;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+.fa-facebook-f{
+    padding: 5px 9px;
+}
+.fa-twitter{
+    padding: 5px 6px;
+}
+.fa-instagram{
+    padding: 5px 6px;
+}
+.fa-facebook-f:hover{
+    color: #3b5998;
+    border-color:#3b5998 ;
+}
+.fa-twitter:hover{
+    color: #1DA1F2;
+    border-color: #1DA1F2;
+}
+.fa-instagram:hover{
+    color: #8a3ab9;
+    border-color: #8a3ab9;
+}
